@@ -1,0 +1,26 @@
+body{
+    background-color: gainsboro;
+}
+
+.CentrarEsteTexto{
+    text-align: center;
+}
+
+.parrafo{
+    z-index: 1;
+    width: 540px;
+    height: 440px;
+    padding: 20px 20px;
+    font-size: 30px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
